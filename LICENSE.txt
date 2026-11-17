@@ -1,0 +1,21 @@
+紅色風暴 Red Storm
+Copyright (c) 2026 taiwan-indie-lab. All rights reserved.
+版權所有，保留一切權利。
+
+本遊戲（包含程式碼、遊戲設計、原創美術、音樂、音效與文字）受著作權法保護。
+歡迎免費遊玩與分享遊戲網址，但未經書面同意，不得：
+  - 複製、修改、拆解或反向工程本遊戲及其檔案
+  - 重新發佈、轉載、上架到其他平台或網站
+  - 用於任何商業用途
+
+This game (including code, game design, original art, music, sound and text) is protected by copyright.
+You are welcome to play it for free and share the link, but without written permission you may not:
+  - copy, modify, decompile or reverse-engineer the game or its files
+  - redistribute, re-upload or publish it on other platforms or websites
+  - use it for any commercial purpose
+
+第三方素材 Third-party assets
+本遊戲使用的部分第三方素材依其原授權條款使用，不在上述保留範圍內，
+完整清單、作者與授權見 CREDITS.txt。
+Some third-party assets are used under their own licenses and are not covered by the reservation above.
+See CREDITS.txt for the full list, authors and licenses.

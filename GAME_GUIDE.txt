@@ -1,0 +1,134 @@
+RED STORM - GAME GUIDE
+=====================================
+(Chinese version: 遊戲說明.txt)
+
+[STARTING THE GAME]
+  Run RedStorm_Game/RedStorm.exe
+  (or play in the browser: https://taiwan-indie-lab.github.io/red-storm/)
+
+  Language: the game picks Chinese or English from your system on first launch.
+  Use the "English" / "中文" button on the main menu to switch at any time.
+
+  To modify the game: open project.godot in the Godot 4.7 editor
+  Balance values (cost, health, damage): scripts/defs.gd
+
+[GAME MODES]
+  - Skirmish: choose your country, number of enemies (1-3), difficulty, map (9 maps) and starting funds
+    Start positions are random (the main opponent is always in the opposite corner); the white dot on the
+    menu's map preview is your position this game - press "Regenerate Terrain" to reroll
+  - Campaign: 4 story missions (Outpost Assault / Hold the Line / Drone War / Nuclear Crisis)
+  - Game Mode (in the skirmish menu):
+      Annihilation - destroy all enemy buildings
+      Survival - the enemy has no base; waves arrive after 3 minutes, every 5th wave is a boss wave,
+                 each wave repelled pays a bonus, and surviving 25 waves wins
+      Control Point - the central command post opens at 2:30; hold it alone to reach 300 points and win,
+                 earning +$10 per second while you control it
+
+[BASIC CONTROLS]
+  Left click           Select a unit / drag to box-select
+  Double click         Select all units of that type on screen (double-click the MCV = deploy)
+  Right click          Move, attack, harvest, capture with Engineers, garrison civilian buildings with infantry
+  Shift + right click  Queue waypoints
+  A                    Attack-move (engage enemies on the way)
+  S                    Stop
+  D                    Deploy the MCV / make garrisoned infantry leave a building
+  E                    Select all combat units
+  Q                    Select units of the same type
+  Ctrl + 1-9           Assign a control group; 1-9 selects it (double-tap to jump there)
+  Shift + left click on the build panel   Queue 5 units at once
+  Ctrl + left click on the build panel    Repeat production (right click to cancel)
+  F                    Unit ability: infantry "Dig In" (cannot move, range +1.5, damage taken -40%;
+                       press again or give a move order to cancel)
+                       vehicles "Smoke Grenade" (damage taken -50% for 8 seconds, 40-second cooldown)
+  Z / X                Sell mode / Repair mode
+  H                    Back to base
+  M                    Music on / off (volume is in the Esc menu)
+  Space                Jump to the latest alert (under attack / radar ping); with no alert, back to base
+  Hold right button and drag   Pan the view (also arrow keys, moving the mouse to the screen edge,
+                       middle-button drag, or a two-finger trackpad swipe)
+  (The pause menu can switch to "left-drag pans the view"; box-select then uses Shift + drag)
+  Mouse wheel          Zoom; middle-button drag pans
+  + / -                Game speed; P pause; Esc menu (volume); F1 help
+
+[SUGGESTED BUILD ORDER]
+  Deploy the MCV -> Power Plant -> Refinery (comes with an Ore Truck) -> Barracks -> War Factory
+  -> Radar (enables the minimap) -> Drone Station / Financial Center -> Tech Center -> Superweapon
+
+[TECH UPGRADES] (6th tab of the build panel, "Tech"; requires Radar)
+  Ballistic Plates / Precision Fire (infantry) - Composite Armor / Tungsten AP Rounds / Turbine Engine (vehicles)
+  Stealth Coating (air) - Reinforced Fortifications (buildings) - Efficient Refining (harvesting +25%)
+  - War Academy (new units start as veterans)
+  Each can be researched once and applies to your whole army permanently; the AI researches them too
+
+[DIFFICULTY] Easy / Normal / Hard / Brutal (AI income +75%, with earlier and more frequent mass attacks)
+
+[TECH BUILDINGS] (neutral buildings on skirmish maps with an icon badge overhead; placed at equal
+  distance from both sides' start positions)
+  Capture one with an Engineer to gain its effect; lose it if an enemy Engineer takes it:
+  Tech Hospital (red cross): all your infantry regain 3% health per second
+  Machine Shop (gear): all your vehicles and ships regain 2% health per second
+  Tech Airport (plane): grants the "Paratroopers" special ability
+  The AI also sends Engineers to capture them
+
+[BATTLEFIELD CONTRACTS] (skirmish; can be turned off in the menu)
+  From about 4 minutes in, command issues timed side missions from time to time; the blue bar at the
+  top left shows progress:
+  Ore Truck Hunt / Decapitation Strike (the target building is marked with a red crosshair) /
+  Annihilate Forces / Seize a Stronghold / Iron Wall
+  Completing one pays a bounty; there is no penalty for failing
+
+[DYNAMIC WEATHER] (skirmish; can be turned off in the menu)
+  Clear skies alternate with bad weather, which depends on the map theme; the time remaining is shown
+  at the top right:
+  Heavy Rain: long-range weapon range -10%     Dense Fog: long-range weapon range -25%
+  Thunderstorm: long-range weapon range -15%, air unit speed -25%, random lightning strikes
+  Heavy Snow: ground speed -12%     Blizzard: ground speed -25%, long-range weapon range -20%, air speed -30%
+  Sandstorm: long-range weapon range -25%, ground speed -10%, air speed -30%
+  (Only weapons with a range of 6.5 tiles or more are affected; defensive towers are not)
+
+[ENEMY COMMANDER PERSONALITIES] (skirmish)
+  Each AI gets a random style: Balanced / Blitzer (early rushes) / Turtle (heavy defenses and artillery) /
+  Air Dominator (lots of drones and aircraft) / Steel Torrent (massed heavy tanks)
+  Once you build a Radar you receive intel revealing the opponent's style; the Diplomacy panel (T) shows it too
+
+[RULE MUTATORS] ("Battlefield Options" on the right of the skirmish menu; combine freely; apply to all players)
+  Fast Build (production x2) - Rich Ore (harvesting x1.5) - Nuclear Age (special weapons charge x2)
+  - Glass Cannon (damage x1.6) - Veteran Forces (new units start as veterans)
+  - Infantry War (infantry only) - No Superweapons - Blitzkrieg (movement speed x1.4)
+
+[DAILY CHALLENGE] ("Daily Challenge" on the main menu)
+  Each day the date fixes the country, map, opponents, difficulty and 2 rule mutators. Go for the
+  fastest win; your best result of the day is recorded
+
+[FACTIONS]
+  Allies:  Grey Wolf Tank, Beam Tank, HIMARS, Javelin Trooper, TB2, FPV drone, Beam Tower,
+           Weather Controller (Lightning Storm), Financial Sanctions, Starlink Recon, Destroyer, Aegis Cruiser
+  Soviets: Heavy Tank, Mammoth Tank, TOS-1A, Iskander, Lancet, Shahed-136,
+           Tesla Coil, Nuclear Missile Silo, Energy Cutoff, GPS Jamming, Attack Submarine, Dreadnought
+
+[SPECIAL WEAPONS] (they charge below the build panel once the matching building is built)
+  When you fire one yourself, a 4-5 second 3D launch cinematic plays (the nuke lifting off, the storm
+  forming, a missile salvo...). The battle is paused meanwhile, and the camera then centers on the target.
+  Other players' launches do not interrupt you. Click or press Esc to skip; the Esc menu can turn
+  cinematics off
+  Nuclear Missile / Lightning Storm: area-destruction strikes
+  Financial Sanctions: freezes 30% of the enemy's funds and cuts their income and production for 90 seconds
+  Energy Cutoff: a full enemy blackout for 60 seconds (defensive towers and radar go offline)
+  Drone Swarm: launches a group of kamikaze drones
+  Starlink Recon: permanently reveals a large area
+  GPS Jamming: enemy drones in the area crash and defensive towers go offline for 25 seconds
+
+[TIPS]
+  - EW Vehicles and Anti-Drone Jammer Towers make nearby enemy drones crash
+  - Engineers can capture oil derricks (steady income) and enemy buildings (you get their tech!)
+  - Infantry garrisoned in civilian buildings shoot from cover; a gas station explodes violently when destroyed
+  - Units are promoted to Veteran / Elite after 3 / 6 kills
+  - With low power, production slows and defensive towers and radar shut down
+
+[ASSET LICENSES]
+The special-weapon cinematics use the following third-party assets (full list and links in CREDITS.txt):
+  CC-BY 4.0 models (Sketchfab): "Russian Soldier" by Bzovius; "Ural 4320" by Brout;
+    "T-90AM", "M1A2 Abrams", "F-16D Block 60", "MAZ-543 9P117", "Renault TRM Radar Truck" by Muhamad Mirza Arrafi;
+    "DDG-51 USS Arleigh Burke" by Yi Tsung Lee; "Army Parachute" by amaraklov;
+    "C130J Super Hercules" by KOG_THORNS; "Storm Shadow" by Viktor_; "UAV Gerbera" by Vlarder1
+  CC0 models and materials: Poly Haven, ambientCG; Earth imagery: NASA (public domain)

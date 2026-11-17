@@ -1,0 +1,64 @@
+紅色風暴 Red Storm — 第三方素材與授權 Third-party assets and licenses
+=====================================================================
+
+介面字型 UI font
+  Noto Sans TC — SIL Open Font License 1.1 — https://fonts.google.com/noto/specimen/Noto+Sans+TC
+
+特殊武器 3D 動畫使用的外部素材（CC0 公眾領域、NASA 公眾領域，以及需署名的 CC-BY 4.0 模型，見下方各段）
+
+模型：Poly Haven（https://polyhaven.com，CC0）
+  barrel_03
+  concrete_road_barrier
+  covered_car
+  dead_tree_trunk
+  flood_lights
+  metal_jerrycan_green
+  modular_chainlink_fence
+  modular_electricity_poles
+  old_military_crate
+  old_tyre
+  portable_generator
+  power_box_01
+  rock_07
+  rollershutter_door
+  street_lamp_01
+  utility_box_01
+  wooden_military_crate
+
+材質：ambientCG（https://ambientcg.com，CC0）
+  Bricks105, Concrete034, Asphalt031, RoofingTiles013A, PaintedMetal004, Ground109
+
+貼圖已縮小為 512 像素以控制檔案大小。
+
+地球影像：NASA（公眾領域），經 Wikimedia Commons 取得
+  earth_day.jpg（Blue Marble: Land Surface, Ocean Color and Sea Ice）
+  earth_night.jpg（The Earth at Night）
+
+────────────────────────────────────────
+以下模型為 CC-BY 4.0 授權（可商用，須標示作者），取自 Sketchfab；貼圖已縮小為 1K
+  https://creativecommons.org/licenses/by/4.0/
+
+  soldier/     "Russian Soldier" by Bzovius
+               https://sketchfab.com/3d-models/russian-soldier-66df4b2856194d40a546afe2d1d77cfe
+  ural_truck/  "Ural 4320" by Brout
+               https://sketchfab.com/3d-models/ural-4320-f953c51a5dbc4a15949f4dcc0905c4e8
+  t90/         "Uralvagonzavod T-90AM Main Battle Tank" by Muhamad Mirza Arrafi
+               https://sketchfab.com/3d-models/uralvagonzavod-t-90am-main-battle-tank-619de9f0908e4c8395fe036ffe6e3884
+  abrams/      "General Dynamics M1A2 Abrams Main Battle Tank" by Muhamad Mirza Arrafi
+               https://sketchfab.com/3d-models/general-dynamics-m1a2-abrams-main-battle-tank-10a16c96ca8b4ebc855915f5d5202046
+  ddg51/        "1:1 Low poly US NAVY DDG-51 USS Arleigh Burke." by Yi Tsung Lee
+                https://sketchfab.com/3d-models/11-low-poly-us-navy-ddg-51-uss-arleigh-burke-17be09c31c6047e4a5969b68c29eba03
+  parachute/    "Army Parachute" by amaraklov
+                https://sketchfab.com/3d-models/army-parachute-af52e08feebc4d94a244692212ac25bb
+  f16/          "General Dynamics F-16D Block 60" by Muhamad Mirza Arrafi
+                https://sketchfab.com/3d-models/general-dynamics-f-16d-block-60-ea8edb08d79e4eafa9c794c581f88cf3
+  c130/         "Lockheed Martin C130J \"Super Hercules\" (REUPLOAD)" by KOG_THORNS（貼圖經修改：已移除國旗、機號與彩色標誌）
+                https://sketchfab.com/3d-models/lockheed-martin-c130jsuper-hercules-reupload-223b4ff4abb945038fe35726bedd0db1
+  maz543/       "MAZ-543 Uragan 9P117" by Muhamad Mirza Arrafi
+                https://sketchfab.com/3d-models/maz-543-uragan-9p117-2dcaca61c4b9470cb0d8705a12097cef
+  radar_truck/  "Renault TRM Radar Truck" by Muhamad Mirza Arrafi
+                https://sketchfab.com/3d-models/renault-trm-radar-truck-1ad95e5724624a3bba7d36a686817efc
+  storm_shadow/ "Storm Shadow Ukraine" by Viktor_
+                https://sketchfab.com/3d-models/storm-shadow-ukraine-d1ad04ce964f46dd9cbac6a64cd19b1b
+  gerbera/      "UAV Gerbera [Low-Poly]" by Vlarder1
+                https://sketchfab.com/3d-models/uav-gerbera-low-poly-0b619df8b433445f8d22f3c4afdf7758
