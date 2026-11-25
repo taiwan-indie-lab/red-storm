@@ -101,17 +101,17 @@ RED STORM - GAME GUIDE
   fastest win; your best result of the day is recorded
 
 [FACTIONS]
-  Allies:  Grey Wolf Tank, Beam Tank, HIMARS, Javelin Trooper, TB2, FPV drone, Beam Tower,
-           Weather Controller (Lightning Storm), Financial Sanctions, Starlink Recon, Destroyer, Aegis Cruiser
-  Soviets: Heavy Tank, Mammoth Tank, TOS-1A, Iskander, Lancet, Shahed-136,
-           Tesla Coil, Nuclear Missile Silo, Energy Cutoff, GPS Jamming, Attack Submarine, Dreadnought
+  West:    Grey Wolf Tank, Laser Tank, HIMARS, Javelin Trooper, TB2, FPV drone, Laser Tower,
+           EMP Center (EMP Storm), Financial Sanctions, Starlink Recon, Destroyer, Aegis Cruiser
+  East:    Heavy Tank, Bastion Heavy Tank, TOS-1A, Iskander, Lancet, Shahed-136,
+           Arc Tower, Nuclear Missile Silo, Energy Cutoff, GPS Jamming, Attack Submarine, Missile Battleship
 
 [SPECIAL WEAPONS] (they charge below the build panel once the matching building is built)
   When you fire one yourself, a 4-5 second 3D launch cinematic plays (the nuke lifting off, the storm
   forming, a missile salvo...). The battle is paused meanwhile, and the camera then centers on the target.
   Other players' launches do not interrupt you. Click or press Esc to skip; the Esc menu can turn
   cinematics off
-  Nuclear Missile / Lightning Storm: area-destruction strikes
+  Nuclear Missile / EMP Storm: area-destruction strikes
   Financial Sanctions: freezes 30% of the enemy's funds and cuts their income and production for 90 seconds
   Energy Cutoff: a full enemy blackout for 60 seconds (defensive towers and radar go offline)
   Drone Swarm: launches a group of kamikaze drones
